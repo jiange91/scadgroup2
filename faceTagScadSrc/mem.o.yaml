@@ -1,0 +1,22 @@
+type: memory
+limits:
+    mem: 1024 MB
+corunning:
+  - loadVT
+  - getLocationAndEncoding
+  - getLocationAndEncoding-worker-0
+  - getLocationAndEncoding-worker-1
+  - getLocationAndEncoding-worker-2
+  - getLocationAndEncoding-worker-3
+  - getLocationAndEncoding-worker-4
+  - getLocationAndEncoding-worker-5
+  - getLocationAndEncoding-worker-6
+  - getLocationAndEncoding-worker-7
+  - getLocationAndEncoding-worker-8
+  - getLocationAndEncoding-worker-9
+  - getLocationAndEncoding-exit
+  - tagNameOnFrames
+  - tagNameOnFrames-worker-0
+  - tagNameOnFrames-worker-1
+  - tagNameOnFrames-exit
+  - BoxTargetName

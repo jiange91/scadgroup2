@@ -1,0 +1,6 @@
+type: memory
+limits:
+    mem: 512 MB
+corunning:
+  - getLocationAndEncoding-exit
+  - getLocationAndEncoding-worker-6

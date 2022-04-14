@@ -1,0 +1,9 @@
+type: memory
+limits:
+    mem: 512 MB
+corunning:
+  - Dummy_authentication
+  - Work_setup-Resize_image
+  - ML_inference
+  - Cache_render
+  - Need_subscription
